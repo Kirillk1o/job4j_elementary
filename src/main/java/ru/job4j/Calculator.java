@@ -1,4 +1,4 @@
-package ru.job4j.calculator;
+package ru.job4j;
 public class Calculator {
     public static void main(String[] args) {
         int one = 1;
@@ -14,5 +14,6 @@ public class Calculator {
         System.out.println(fourTimeTwo);
     }
 }
+
 
 
