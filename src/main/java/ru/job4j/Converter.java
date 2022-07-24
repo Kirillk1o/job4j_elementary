@@ -6,6 +6,7 @@ public class Converter {
         float rs1 = value / 70;
         return rs1;
     }
+
     public static float rubleToDollar(float value) {
         float rs1 = value / 60;
         return rs1;
@@ -15,6 +16,7 @@ public class Converter {
         float dollars = value * 60;
         return dollars;
     }
+
     public static float euroToRubles(float value) {
         float euro1 = value * 70;
         return euro1;
