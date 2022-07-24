@@ -28,12 +28,12 @@ public class Converter {
         float out = Converter.rubleToEuro(in);
         boolean passed = expected == out;
         System.out.println("140 rubles are " + euro + " euro: " + passed);
-        float dollars = ru.job4j.Converter.rubleToDollar(500);
-        float in1 = 500;
-        float expected1 = (float) 8.3;
+        float dollars = ru.job4j.Converter.rubleToDollar(600);
+        float in1 = 600;
+        float expected1 = 10;
         float out1 = Converter.rubleToDollar(in);
         boolean passed1 = expected1 == out1;
-        System.out.println("500 rubles are " + dollars + " dollars: " + passed1);
+        System.out.println("600 rubles are " + dollars + " dollars: " + passed1);
         float rs1 = ru.job4j.Converter.dollarToRuble(300);
         float in2 = 300;
         float expected2 = 18000;
